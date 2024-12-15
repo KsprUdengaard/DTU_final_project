@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dashboard"
+version = "0.1.0"
+description = "The streamlit front-end dashboard to enable data visualization and manipulation"
+authors = ["Kasper Udengaard <meinl.cym@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.40.1"
+requests = "^2.32.3"
+plotly = "^5.24.1"
+datetime = "^5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
