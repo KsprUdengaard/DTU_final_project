@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = "API back-end application for the energy prediction application"
+authors = ["Kasper Udengaard <meinl.cym@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.0"
+httpx = "^0.27.2"
+pandas = "^2.2.3"
+xgboost = "^2.1.3"
+numpy = "^2.1.3"
+datetime = "^5.5"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
